@@ -45,3 +45,12 @@ RAG_Agent/
 │── tests/              # 测试代码
 │── requirements.txt    # 依赖
 │── README.md
+
+## 技术栈
+| 模块    | 技术                           |
+| ----- | ---------------------------- |
+| LLM   | OpenAI / 本地模型                |
+| 框架    | LangChain / LangGraph        |
+| 向量数据库 | Chroma / FAISS               |
+| 数据处理  | BeautifulSoup / TextSplitter |
+| Agent | ReAct / Tool Calling         |
